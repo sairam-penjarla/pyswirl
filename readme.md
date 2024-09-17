@@ -1,133 +1,173 @@
 # HOW TO USE
 
-`````` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(style="shuffle")
 pen.set_style(color_style=["#7b4b8b", "#828b4b"], bg_style="#ffffff")
 pen.draw(185, iterations=127, circles=True, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(270, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(style="shuffle")
 pen.draw(245, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style=["#556B2F", "#6B8E23", "#808000", "#8FBC8F", "#9ACD32"], bg_style="#ffffff")
 pen.draw(150, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style=["#BDB76B", "#DAA520", "#CD853F", "#8B4513", "#006400"], bg_style="#ffffff")
 pen.draw(103, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style="default", bg_style="#ffffff")
 pen.draw(119, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(64, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(61, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(59, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style="all colors", bg_style="#FFFFFF", num_colors=2)
 pen.draw(48, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style="pastel", bg_style="#000000", num_colors=2)
 pen.draw(118, iterations=200, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(style="default")
 pen.draw(103, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(103, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(91, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(165, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(121, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(123, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(120, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
-
-pen = swirl()
-pen.draw(108, iterations=200, change_colors=False)
-pen.clear() ```
-
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(108, iterations=200, change_colors=False)
-pen.clear() ```
+pen.clear()
+```
+
+```
+from pyswirl import swirl
+
+pen = swirl()
+pen.draw(108, iterations=200, change_colors=False)
+pen.clear()
+```
 
 ```
 from pyswirl import swirl
@@ -144,18 +184,22 @@ pen.draw(80, iterations=200, change_colors=False, circles=True)
 pen.clear()
 ```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.draw(182, iterations=200, change_colors=False, circles=True)
-pen.clear() ```
+pen.clear()
+```
 
-``` from pyswirl import swirl
+```
+from pyswirl import swirl
 
 pen = swirl()
 pen.set_style(color_style="default", bg_style="#ffffff", num_colors=5)
 pen.draw(144, iterations=200, circles=True, change_colors=True)
-pen.clear() ```
+pen.clear()
+```
 
 
 
