@@ -1,295 +1,115 @@
-# HOW TO USE
+# [![Website](https://img.shields.io/badge/Website-Visit-brightgreen)](https://psairam9301.wixsite.com/website) [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red)](https://www.youtube.com/@sairampenjarla) [![GitHub](https://img.shields.io/badge/GitHub-Explore-black)](https://github.com/sairam-penjarla) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sairam-penjarla-b5041b121/) [![Instagram](https://img.shields.io/badge/Instagram-Follow-ff69b4)](https://www.instagram.com/sairam.ipynb/)
 
-```
-from pyswirl import swirl
+# Swirl Art Generator
 
-pen = swirl()
-pen.set_style(style="shuffle")
-pen.set_style(color_style=["#7b4b8b", "#828b4b"], bg_style="#ffffff")
-pen.draw(185, iterations=127, circles=True, change_colors=True)
-pen.clear()
-```
+A Tkinter-based application that uses Turtle graphics to create stunning swirl art with customizable options.
 
-```
-from pyswirl import swirl
+## Getting Started
 
-pen = swirl()
-pen.draw(270, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear()
+Follow these steps to clone the repository, set up the environment, and run the project:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/sairam-penjarla/swirl-art-generator.git
+cd swirl-art-generator
 ```
 
-```
-from pyswirl import swirl
+### Set Up a Virtual Environment
 
-pen = swirl()
-pen.set_style(style="shuffle")
-pen.draw(245, iterations=200, change_colors=True)
-pen.clear()
-```
+Learn how to create a virtual environment from this blog post: [Learn Virtualenv Basics](https://psairam9301.wixsite.com/website/post/learn-virtualenv-basics).
 
-```
-from pyswirl import swirl
+#### Using Virtualenv
 
-pen = swirl()
-pen.set_style(color_style=["#556B2F", "#6B8E23", "#808000", "#8FBC8F", "#9ACD32"], bg_style="#ffffff")
-pen.draw(150, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear()
+```bash
+python -m venv venv
+source venv/bin/activate # On Windows, use `venv\Scripts\activate`
 ```
 
-```
-from pyswirl import swirl
+#### Using Anaconda
 
-pen = swirl()
-pen.set_style(color_style=["#BDB76B", "#DAA520", "#CD853F", "#8B4513", "#006400"], bg_style="#ffffff")
-pen.draw(103, iterations=200, circles=True, change_width=True, change_colors=True)
-pen.clear()
+```bash
+conda create --name swirl-art-env python=3.9
+conda activate swirl-art-env
 ```
 
-```
-from pyswirl import swirl
+### Install Dependencies
 
-pen = swirl()
-pen.set_style(color_style="default", bg_style="#ffffff")
-pen.draw(119, iterations=200, change_colors=True)
-pen.clear()
+```bash
+pip install -r requirements.txt
 ```
 
-```
-from pyswirl import swirl
+### Run the Application
 
-pen = swirl()
-pen.draw(64, iterations=200, change_colors=True)
-pen.clear()
+```bash
+python app.py
 ```
 
-```
-from pyswirl import swirl
+## Project Details
 
-pen = swirl()
-pen.draw(61, iterations=200, change_colors=True)
-pen.clear()
-```
+The **Swirl Art Generator** is designed to create intricate spiral patterns using Python's Turtle and Tkinter modules.
 
-```
-from pyswirl import swirl
+### Key Features:
 
-pen = swirl()
-pen.draw(59, iterations=200, change_colors=True)
-pen.clear()
-```
+- **Customizable Options**: Set angle, iterations, background color, and color palette.
+- **Multiple Line Styles**: Supports line, circle, and rhombus patterns.
+- **Dynamic Animation**: Smooth, real-time drawing with customizable speed.
+- **Interactive Controls**:
+  - **Pause** and **Resume** buttons for the animation.
+  - **Reset** button to clear the canvas and restore default settings.
+- **Random Color Generation**: Generate unique patterns with random colors.
+- **User-Friendly UI**: Designed with beginners in mind for an engaging experience.
+- **Canvas Size**: Default canvas size is 1000x1000 pixels, with the pen starting at the center (500x500).
 
-```
-from pyswirl import swirl
+### Use Cases:
 
-pen = swirl()
-pen.set_style(color_style="all colors", bg_style="#FFFFFF", num_colors=2)
-pen.draw(48, iterations=200, change_colors=True)
-pen.clear()
-```
+- Generate artistic patterns for creative projects.
+- Visual demonstrations for teaching geometry or programming.
+- Fun, interactive tool for hobbyists and art enthusiasts.
 
-```
-from pyswirl import swirl
+## Examples and Suggestions
 
-pen = swirl()
-pen.set_style(color_style="pastel", bg_style="#000000", num_colors=2)
-pen.draw(118, iterations=200, change_colors=True)
-pen.clear()
-```
+### Sample Angles and Color Palettes:
 
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.set_style(style="default")
-pen.draw(103, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(103, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(91, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(165, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(121, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(123, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(120, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(108, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(108, iterations=200, change_colors=False)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-pen = swirl()
-pen.draw(60, iterations=200, change_colors=False, circles=True)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(80, iterations=200, change_colors=False, circles=True)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.draw(182, iterations=200, change_colors=False, circles=True)
-pen.clear()
-```
-
-```
-from pyswirl import swirl
-
-pen = swirl()
-pen.set_style(color_style="default", bg_style="#ffffff", num_colors=5)
-pen.draw(144, iterations=200, circles=True, change_colors=True)
-pen.clear()
-```
+- **Angle**: 25 degrees, **Color Palettes**: #f2f2f2, #d9d9d9, #bfbfbf, #a6a6a6, #8c8c8c  
+- **Angle**: 30 degrees, **Color Palettes**: #7ba591, #cc222b, #f15b4c, #faa41b  
+- **Angle**: 31 degrees, **Color Palettes**: #FF5733, #33FF57, #3357FF, #FF33A8  
+- **Angle**: 40 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b  
+- **Angle**: 45 degrees, **Color Palettes**: #cc222b, #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 50 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 50 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #33FF57, #faa41b, #ffd45b  
+- **Angle**: 59 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 59 degrees, **Color Palettes**: #f2f2f2, #d9d9d9, #bfbfbf, #a6a6a6, #8c8c8c  
+- **Angle**: 60 degrees, **Color Palettes**:  #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 62 degrees, **Color Palettes**:  #f15b4c, #faa41b, #ffd45b  
+- **Angle**: -70 degrees, **Color Palettes**: #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 80 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b, #FF5733, #33FF57, #3357FF  
+- **Angle**: 89 degrees, **Color Palettes**: #7ba591, #cc222b, #f15b4c, #faa41b  
+- **Angle**: 90 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c  
+- **Angle**: 91 degrees, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c  
+- **Angle**: 108 degrees, **circle**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b  
+- **Angle**: 120 degrees, **circle**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c  
+- **Angle**: 145 degrees, **circle**, **Color Palettes**: #f2f2f2, #d9d9d9, #bfbfbf, #a6a6a6, #8c8c8c  
+- **Angle**: 150 degrees, **circle**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b   
+- **Angle**: 160 degrees, **circle**, **Color Palettes**: #f2f2f2, #d9d9d9, #bfbfbf, #a6a6a6, #8c8c8c  
+- **Angle**: 175 degrees, **circle**, **Color Palettes**: #faa41b, #ffd45b 
+- **Angle**: 180 degrees, **circle**, **Color Palettes**: #faa41b, #ffd45b 
+- **Angle**: 180 degrees, **circle**, **Color Palettes**: #faa41b, #ffd45b 
+- **Angle**: 200 degrees, **circle**, **Color Palettes**: #537c78, #7ba591 
+- **Angle**: 215 degrees, **circle**, **Color Palettes**: #537c78, #7ba591 
+- **Angle**: 215 degrees, **circle**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b 
+- **Angle**: 310 degrees, **rhombus**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b
+- **Angle**: 295 degrees, **rhombus**, **Color Palettes**: #537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b
 
 
+### Sample Color Palettes:
 
-# `swirl.set_style()`
-## modify the look and style of background color, pen color.
-## **parameters:**
+1. `#537c78, #7ba591, #cc222b, #f15b4c, #faa41b, #ffd45b` (Default)
+2. `#FF5733, #33FF57, #3357FF, #FF33A8` (Vibrant)
+3. `#f2f2f2, #d9d9d9, #bfbfbf, #a6a6a6, #8c8c8c` (Monochrome)
 
-### `style` : {'random', 'shuffle', 'default'}, optional
-- **Data type** : string, array like
-- **Description** : It takes any one of the following styles.
-    - `"random"`: Automatically generate a random set of configurations for background and pen color.
-    - `"shuffle"`: Pick a random style every time the draw function is called.
-    - `"default"`: Revert back all/any changes made to the `set_style()` and use the default VIBGYOR color palette, white background, and black pen color.
-
-### `color_style` : {'random', 'all colors', 'pastel', 'default'}, optional
-- **Data type** : string, array like
-- **Description** : It takes any one of the following styles or a list of hex color codes:
-    - `"random"`: A random set of hex color codes will be generated automatically that will be used to draw the lines.
-    - `"all colors"`: This will generate hex colors that are not too light or pastel. They are more suitable for an image with a white background as they contrast with white.
-    - `"pastel"`: This will generate hex color codes that are of pastel colors. They are mostly suitable to be used with a black background color.
-    - `"default"`: This will use the fundamental VIBGYOR color palette `['#537c78', '#7ba591', '#cc222b', '#f15b4c', '#faa41b', '#ffd45b']`
-
-### `num_colors` : optional
-- **Data type** : int
-- **Description** : To allow users to specify the number of colors they want to use in their pattern, the `num_colors` parameter can be passed to the function. For instance, if the user intends to generate a pattern resembling the top of a pyramid, they can set `num_colors` to 3.
-
-### `bg_style` : {’random’}, optional
-- **Data type**: string, array like
-- **Description**: It takes either `“random”` or any hex colour code as a parameter, which is used as a background colour for the canvas.
-
---- 
-# `swirl.draw()`
-## Draw a swirl drawing with the defined parameters and/or configrations from `set_style()` method.
-## **parameters:**
-
-### `change_colors` : optional
-- **Data type**: bool
-- **Description**: This parameter can be used to change the pen colour from black to colour. Use the `color_style` parameter in the `set_style()` method to customise the colors. By default swirl uses the VIBGYOR color palette `['#537c78', '#7ba591', '#cc222b', '#f15b4c', '#faa41b', '#ffd45b']`.
-
-### `angle` : non-optional
-- **Data type**: float
-- **Description**: This parameter is used to define the angle with which the swirl must be drawn.
-
-### `iterations` : default = 500
-- **Data type**: int
-- **Description**: This parameter is used to define the number of lines to be used. Each iteration draws one line.
-
-### `change_colors` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to turn the colours on and off. When this is set True, the pen uses the default colors unless the `set_style` is modified.
-
-### `change_width` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to gradually increases the width of each line in each iteration.
-
-### `width_speed` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to set the speed at which the line width changes for each iteration.
-
-### `circles` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to draw a circle after each line. The radius of the circle increases in every iteration.
-
-### `rhombus` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to draw a rhombus after each line. The radius of the circle increases in every iteration.
-
-### `random_moves` : optional
-- **Data type**: bool
-- **Description**: This parameter is used to make random moves at every iteration.
 
 ---
-# `swirl.save_result()`
-## Save the swirl drawing
-## **parameters:**
 
-### `File_name` : optional
-- **Data type**: str
-- **Description**: This is used to name the file that is being generated.
+Happy Creating!
 
-### `png` : optional
-- **Data type**: bool
-- **Description**: To save a `.png` version of the drawing.
-
-### `eps` : default = True
-- **Data type**: bool
-- **Description**: To save the `.eps` version of the file.
----
-# `swirl.clear()`
-## Clear the canvas by erasing whatever has been drawn so far.
-## **parameters:**
-
-### None
